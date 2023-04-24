@@ -20,7 +20,10 @@ function App() {
         <ImagesBar />
         {SurveyStatus === "true" ? (
           <>
-            <MainText extended={false} mainText="Inscríbete Aquí" />
+            <MainText
+              extended={false}
+              mainText="INSCR&Iacute;BETE Aqu&Iacute;"
+            />
             <Survey />
           </>
         ) : (
