@@ -11,7 +11,7 @@ import "./styles.css";
 
 export const FooterImagesBar: FC = () => {
   return (
-    <div className="images-bar">
+    <div className="images-footer-bar">
       <Image
         image={idecut}
         caption="logo del idecut"
