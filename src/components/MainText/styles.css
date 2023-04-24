@@ -40,7 +40,7 @@
 
 .main-text__subtitle--last {
   background-color: var(--orange-color);
-  color: var(--gray-color);
+  color: var(--white-color);
   max-width: 400px;
   font-size: 2.5rem;
   margin-block: 20px;
