@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "url": "/src/assets/images/libros.svg",
+      "caption": "Bibliotecas",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": 2,
+      "url": "/src/assets/images/libro.svg",
+      "caption": "Patrimonio",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": 3,
+      "url": "/src/assets/images/artesanias.svg",
+      "caption": "Artesanías",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": 4,
+      "url": "/src/assets/images/teatro.svg",
+      "caption": "Industrias creativas y culturales",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": 5,
+      "url": "/src/assets/images/cine.svg",
+      "caption": "Cine",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": 6,
+      "url": "/src/assets/images/pintura.svg",
+      "caption": "Artes",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": 7,
+      "url": "/src/assets/images/tejidos.svg",
+      "caption": "Artes tejidos",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": 8,
+      "url": "/src/assets/images/musica.svg",
+      "caption": "Música",
+      "width": 70,
+      "height": 70
+    } ]
+}
