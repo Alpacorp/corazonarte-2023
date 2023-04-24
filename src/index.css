@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Barlow SemiBold";
   src: url(./assets/fonts/Barlow-SemiBold.woff2);
+  font-display: swap;
 }
 
 @font-face {

@@ -23,9 +23,18 @@
 
 .main-text__subtitle {
   font-size: 2.5rem;
-  margin: 0;
+  margin-block-start: 10px;
   padding: 0;
   color: var(--orange-color);
+}
+
+.text-cursive {
+  background-color: var(--blue-dark-color);
+  border-radius: 50%;
+  color: var(--white-color);
+  font-family: 'Cedarville Cursive', cursive;
+  padding-block-end: 10px;
+  padding-inline: 20px;
 }
 
 .main-text__subtitle--last {

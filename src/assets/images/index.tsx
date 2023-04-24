@@ -6,6 +6,7 @@ import cundinamarcaRegion from "./cundinamarca-region-logo.svg";
 import gobernacionCun from "./gobernacion-cundinamarca-logo.svg";
 import idecut from "./idecut-logo.svg";
 import libro from "./libro.svg";
+import libros from "./libros.svg";
 import musica from "./musica.svg";
 import pintura from "./pintura.svg";
 import teatro from "./teatro.svg";
@@ -20,6 +21,7 @@ export {
   gobernacionCun,
   idecut,
   libro,
+  libros,
   musica,
   pintura,
   teatro,
