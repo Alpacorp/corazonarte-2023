@@ -43,9 +43,9 @@ body {
 }
 
 html {
-  /* background-image: url(./assets/images/background.svg); */
+  background-image: url(./assets/images/background.svg);
   background-color: #fff;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
