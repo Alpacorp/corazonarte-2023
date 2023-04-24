@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": 1,
-      "url": "./src/assets/images/libros.svg",
+      "url": "../src/assets/images/libros.svg",
       "caption": "Bibliotecas",
       "width": 70,
       "height": 70
