@@ -1,0 +1,16 @@
+.image {
+  margin-inline: 10px;
+  margin-block: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .image {
+    margin-inline: 5px;
+    margin-block: 2px;
+  }
+
+  .image__img {
+    width: 50px;
+    height: 50px;
+  }
+}

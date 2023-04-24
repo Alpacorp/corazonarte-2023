@@ -1,0 +1,17 @@
+.portfolio-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.portfolio-logo__image {
+  height: 100px;
+  aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio-logo__image {
+    height: 50px;
+  }
+}

@@ -1,0 +1,25 @@
+.portfolio-text {
+  border-left: 2px solid #26558D;
+  margin-inline-start: 20px;
+  max-width: 200px;
+  width: 100%;
+}
+
+.portfolio-text__title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin: 0;
+  padding-inline-start: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio-text {
+    margin-inline-start: 20px;
+  }
+
+  .portfolio-text__title {
+    font-size: 1rem;
+  }
+}

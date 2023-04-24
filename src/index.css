@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Barlow SemiBold";
+  src: url(./assets/fonts/Barlow-SemiBold.woff2);
+}
+
+@font-face {
+  font-family: "Oswald Medium";
+  src: url(./assets/fonts/Oswald-Medium.woff2);
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --blue-dark-color: #26558D;
+  --blue-light-color: #336698;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --orange-color: #EF811A;
+  --yellow-color: #E7B22A;
+
+  --primary-font: 'Barlow SemiBold';
+  --secondary-font: 'Oswald Medium';
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+}
+
+body {
+  place-items: center;
+  min-height: 100vh;
+}
+
+html {
+  /* background-image: url(./assets/images/background.svg); */
+  background-color: #fff;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
