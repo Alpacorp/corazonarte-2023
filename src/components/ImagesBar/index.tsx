@@ -16,7 +16,7 @@ import "./styles.css";
 
 export const ImagesBar: FC = () => {
   return (
-    <div className="images-bar">
+    <div className="images-bar" role="tabpanel" tabIndex={0}>
       <Image
         image={libros}
         caption="imagen de varios libros"

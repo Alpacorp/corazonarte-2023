@@ -11,7 +11,7 @@ interface ImageProps {
 
 export const Image: FC<ImageProps> = ({ image, caption, width, height }) => {
   return (
-    <div className="image">
+    <div className="image" role="tabpanel" tabIndex={0}>
       <img
         src={image}
         alt={caption}

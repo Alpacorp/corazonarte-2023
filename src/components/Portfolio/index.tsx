@@ -5,7 +5,7 @@ import "./styles.css";
 
 export const Portfolio = () => {
   return (
-    <div className="portfolio">
+    <div className="portfolio" role="tabpanel" tabIndex={0}>
       <PortfolioLogo />
       <PortfolioText />
     </div>
