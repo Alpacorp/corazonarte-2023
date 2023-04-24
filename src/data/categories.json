@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": 1,
-      "url": "../../public/images/libros.svg",
+      "url": "../../src/assets/images/libros.svg",
       "caption": "Bibliotecas",
       "width": 70,
       "height": 70
@@ -16,7 +16,7 @@
     },
     {
       "id": 3,
-      "url": "./src/assets/images/artesanias.svg",
+      "url": "../../src/assets/images/artesanias.svg",
       "caption": "Artesanías",
       "width": 70,
       "height": 70
