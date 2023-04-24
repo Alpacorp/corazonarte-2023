@@ -19,7 +19,14 @@ export const ImagesBar: FC<ImagesBarProps> = ({ data }) => {
   return (
     <div className="images-bar">
       {data.map((data: ImageProps) => (
-        <Image key={data.id} image={data.url} {...data} />
+        <Image
+          key={data.id}
+          image={`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/${
+            data.url
+          }
+        `}
+          {...data}
+        />
       ))}
     </div>
   );

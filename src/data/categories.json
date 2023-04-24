@@ -2,14 +2,14 @@
   "categories": [
     {
       "id": 1,
-      "url": "../../src/assets/images/libros.svg",
+      "url": "libros.svg",
       "caption": "Bibliotecas",
       "width": 70,
       "height": 70
     },
     {
       "id": 2,
-      "url": "./src/assets/images/libro.svg",
+      "url": "libro.svg",
       "caption": "Patrimonio",
       "width": 70,
       "height": 70
