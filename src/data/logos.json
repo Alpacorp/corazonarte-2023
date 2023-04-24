@@ -2,21 +2,21 @@
   "logos": [
     {
       "id": 1,
-      "url": "/src/assets/images/idecut-logo.svg",
+      "url": "./src/assets/images/idecut-logo.svg",
       "caption": "logo Idecut",
       "width": 300,
       "height": 100
     },
     {
       "id": 2,
-      "url": "/src/assets/images/cundinamarca-region-logo.svg",
+      "url": "./src/assets/images/cundinamarca-region-logo.svg",
       "caption": "logo Cundinamarca región que progresa",
       "width": 300,
       "height": 100
     },
     {
       "id": 3,
-      "url": "/src/assets/images/gobernacion-cundinamarca-logo.svg",
+      "url": "./src/assets/images/gobernacion-cundinamarca-logo.svg",
       "caption": "logo gobernación de Cundinamarca",
       "width": 300,
       "height": 100
