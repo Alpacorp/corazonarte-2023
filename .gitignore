@@ -12,7 +12,11 @@ dist
 dist-ssr
 *.local
 
+# environment variables
 .env
+
+# test
+coverage
 
 # Editor directories and files
 .vscode/*
