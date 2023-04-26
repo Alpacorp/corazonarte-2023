@@ -51,9 +51,11 @@ html {
   background-position: center;
 }
 
-.survey-section, .information-section {
-  margin-inline: 20px;
+.survey-section {
+  max-width: 400px;
+  width: 100%;
 }
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -65,5 +67,11 @@ html {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .survey-section, .information-section {
+    margin-inline: 15px;
   }
 }

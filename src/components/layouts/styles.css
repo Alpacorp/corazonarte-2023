@@ -3,9 +3,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-block-start: 50px;
   margin-inline: 50px;
-  padding-block-start: 50px;
   padding-inline: 50px;
 }
 
@@ -18,9 +16,9 @@
 @media screen and (max-width: 500px) {
   .home-layout {
     margin-block-start: 20px;
-    margin-inline: 20px;
+    margin-inline: 0;
     padding-block-start: 20px;
-    padding-inline: 20px;
+    padding-inline: 0;
     height: 100vh;
   }
 }

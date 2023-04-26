@@ -1,0 +1,19 @@
+{
+  "governor": [
+    {
+      "id": 1,
+      "url": "https://corazonarte-2023.vercel.app/assets/idecut-logo-47f05c39.svg",
+      "caption": "logo del idecut"
+    },
+    {
+      "id": 2,
+      "url": "https://corazonarte-2023.vercel.app/assets/cundinamarca-region-logo-c5b51b20.svg",
+      "caption": "logo de la región de Cundinamarca"
+    },
+    {
+      "id": 3,
+      "url": "https://corazonarte-2023.vercel.app/assets/gobernacion-cundinamarca-logo-a15c78f6.svg",
+      "caption": "logo de la Gobernación de Cundinamarca"
+    }
+  ]
+}

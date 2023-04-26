@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "url": "https://corazonarte-2023.vercel.app/assets/libros-f6119df5.svg",
+      "caption": "imagen de varios libros"
+    },
+    {
+      "id": 2,
+      "url": "https://corazonarte-2023.vercel.app/assets/libro-1e06e4ca.svg",
+      "caption": "imagen de un libro"
+    },
+    {
+      "id": 3,
+      "url": "https://corazonarte-2023.vercel.app/assets/artesanias-a6789683.svg",
+      "caption": "imagen de un jarrón artesanal"
+    },
+    {
+      "id": 4,
+      "url": "https://corazonarte-2023.vercel.app/assets/teatro-e58e615c.svg",
+      "caption": "imagen de dos máscaras de teatro"
+    },
+    {
+      "id": 5,
+      "url": "https://corazonarte-2023.vercel.app/assets/cine-1fdeb7f8.svg",
+      "caption": "imagen de una cartelera de cine"
+    },
+    {
+      "id": 6,
+      "url": "https://corazonarte-2023.vercel.app/assets/pintura-872e31d0.svg",
+      "caption": "imagen de un caballete con unos pinceles"
+    },
+    {
+      "id": 7,
+      "url": "https://corazonarte-2023.vercel.app/assets/tejidos-a161719a.svg",
+      "caption": "imagen de un tejido"
+    },
+    {
+      "id": 8,
+      "url": "https://corazonarte-2023.vercel.app/assets/musica-f5955493.svg",
+      "caption": "imagen de una nota musical"
+    }
+  ]
+}

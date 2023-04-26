@@ -4,8 +4,10 @@ import { HomeLayout } from "./components/layouts/HomeLayout";
 import { MainText } from "./components/MainText";
 import { Portfolio } from "./components/Portfolio";
 import { FooterLayout } from "./components/layouts/FooterLayout";
-import { FooterImagesBar } from "./components/FooterImagesBar";
 import { Survey } from "./components/Survey";
+
+import { categories } from "./data/categories.json";
+import { governor } from "./data/governor.json";
 
 import "./index.css";
 import { Text } from "./components/Text";
@@ -18,7 +20,7 @@ function App() {
         <div className="information-section">
           <Portfolio />
           <MainText extended mainText="Corazonarte 2023" />
-          <ImagesBar />
+          <ImagesBar images={categories} size="small" />
         </div>
         <div className="survey-section">
           {SurveyStatus === "true" ? (
@@ -36,7 +38,7 @@ function App() {
       </HomeLayout>
       <FooterLayout>
         <GovernorBar />
-        <FooterImagesBar />
+        <ImagesBar images={governor} size="normal" />
       </FooterLayout>
     </>
   );
