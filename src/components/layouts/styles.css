@@ -1,10 +1,11 @@
 .home-layout {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-inline: 50px;
   padding-inline: 50px;
+  padding-block-start: 50px;
 }
 
 .footer-layout {
