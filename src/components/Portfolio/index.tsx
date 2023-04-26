@@ -5,9 +5,9 @@ import "./styles.css";
 
 export const Portfolio = () => {
   return (
-    <div className="portfolio" role="tabpanel" tabIndex={0}>
+    <section className="portfolio" role="tabpanel" tabIndex={0}>
       <PortfolioLogo />
       <PortfolioText />
-    </div>
+    </section>
   );
 };

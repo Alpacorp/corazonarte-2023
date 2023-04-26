@@ -4,6 +4,11 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 10px;
 }
 
 .main-text__title {
@@ -15,9 +20,8 @@
   font-weight: 700;
   letter-spacing: 1.5px;
   margin-block-start: 20px;
-  max-width: 500px;
   padding-block: 5px;
-  padding-inline: 30px;
+  padding-inline: 10px;
   text-transform: uppercase;
 }
 
@@ -43,8 +47,6 @@
   color: var(--white-color);
   max-width: 400px;
   font-size: 2.5rem;
-  margin-block: 20px;
-  margin-inline: auto;
   padding-block-start: 5px;
   padding-block-end: 15px;
   padding-inline: 10px;

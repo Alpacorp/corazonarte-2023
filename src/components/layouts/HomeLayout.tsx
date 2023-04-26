@@ -7,5 +7,5 @@ interface HomeLayoutProps {
 }
 
 export const HomeLayout: FC<HomeLayoutProps> = ({ children }) => {
-  return <div className="home-layout">{children}</div>;
+  return <main className="home-layout">{children}</main>;
 };

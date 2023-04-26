@@ -15,20 +15,24 @@ function App() {
   return (
     <>
       <HomeLayout>
-        <Portfolio />
-        <MainText extended mainText="Corazonarte 2023" />
-        <ImagesBar />
-        {SurveyStatus === "true" ? (
-          <>
-            <MainText extended={false} mainText="INSCRIBETE AQUI;" />
-            <Survey />
-          </>
-        ) : (
-          <>
-            <MainText extended={false} mainText="Gracias por participar" />
-            <Text />
-          </>
-        )}
+        <div className="information-section">
+          <Portfolio />
+          <MainText extended mainText="Corazonarte 2023" />
+          <ImagesBar />
+        </div>
+        <div className="survey-section">
+          {SurveyStatus === "true" ? (
+            <>
+              <MainText extended={false} mainText="INSCRIBETE AQUI:" />
+              <Survey />
+            </>
+          ) : (
+            <>
+              <MainText extended={false} mainText="Gracias por participar" />
+              <Text />
+            </>
+          )}
+        </div>
       </HomeLayout>
       <FooterLayout>
         <GovernorBar />
