@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "./styles.css";
 
-interface MainTextProps {
+export interface MainTextProps {
   extended: boolean;
   mainText: string;
 }
