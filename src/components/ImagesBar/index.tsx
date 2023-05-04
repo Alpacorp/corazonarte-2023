@@ -1,12 +1,5 @@
 import { FC } from "react";
 import { Image } from "../Image";
-import {
-  libroY,
-  librosY,
-  musicaY,
-  pinturaY,
-  tejidoY,
-} from "../../assets/images";
 
 interface ImageProps {
   id: number;
@@ -32,12 +25,6 @@ export const ImagesBar: FC<ImagesBarProps> = ({ images, size }) => {
           size={size}
         />
       ))}
-      <Image image={libroY} caption="Libro y" size="normal" />
-      <Image image={librosY} caption="Libro y" size="normal" />
-      <Image image={librosY} caption="Libro y" size="normal" />
-      <Image image={musicaY} caption="Libro y" size="normal" />
-      <Image image={pinturaY} caption="Libro y" size="normal" />
-      <Image image={tejidoY} caption="Libro y" size="normal" />
     </div>
   );
 };
