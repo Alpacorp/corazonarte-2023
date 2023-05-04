@@ -2,43 +2,43 @@
   "categories": [
     {
       "id": 1,
-      "url": "https://corazonarte-2023.vercel.app/assets/libros-f6119df5.svg",
-      "caption": "imagen de varios libros"
+      "url": "https://corazonarte-2023.vercel.app/assets/libros-y-0861d1c5.svg",
+      "caption": "imagen de varios libros color amarillo"
     },
     {
       "id": 2,
-      "url": "https://corazonarte-2023.vercel.app/assets/libro-1e06e4ca.svg",
-      "caption": "imagen de un libro"
+      "url": "https://corazonarte-2023.vercel.app/assets/libro-y-25dae099.svg",
+      "caption": "imagen de un libro color amarillo"
     },
     {
       "id": 3,
       "url": "https://corazonarte-2023.vercel.app/assets/artesanias-a6789683.svg",
-      "caption": "imagen de un jarrón artesanal"
+      "caption": "imagen de un jarrón artesanal color azul"
     },
     {
       "id": 4,
       "url": "https://corazonarte-2023.vercel.app/assets/teatro-e58e615c.svg",
-      "caption": "imagen de dos máscaras de teatro"
+      "caption": "imagen de dos máscaras de teatro color azul"
     },
     {
       "id": 5,
       "url": "https://corazonarte-2023.vercel.app/assets/cine-1fdeb7f8.svg",
-      "caption": "imagen de una cartelera de cine"
+      "caption": "imagen de una cartelera de cine color azul"
     },
     {
       "id": 6,
-      "url": "https://corazonarte-2023.vercel.app/assets/pintura-872e31d0.svg",
-      "caption": "imagen de un caballete con unos pinceles"
+      "url": "https://corazonarte-2023.vercel.app/assets/pintura-y-add9645e.svg",
+      "caption": "imagen de un caballete con unos pinceles color amarillo"
     },
     {
       "id": 7,
-      "url": "https://corazonarte-2023.vercel.app/assets/tejidos-a161719a.svg",
-      "caption": "imagen de un tejido"
+      "url": "https://corazonarte-2023.vercel.app/assets/tejido-y-2f472de8.svg",
+      "caption": "imagen de un tejido color amarillo"
     },
     {
       "id": 8,
-      "url": "https://corazonarte-2023.vercel.app/assets/musica-f5955493.svg",
-      "caption": "imagen de una nota musical"
+      "url": "https://corazonarte-2023.vercel.app/assets/musica-y-31b01134.svg",
+      "caption": "imagen de una nota musical color amarillo"
     }
   ]
 }
