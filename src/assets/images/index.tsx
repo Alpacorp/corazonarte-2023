@@ -11,6 +11,11 @@ import musica from "./musica.svg";
 import pintura from "./pintura.svg";
 import teatro from "./teatro.svg";
 import tejidos from "./tejidos.svg";
+import libroY from "./libro-y.svg";
+import librosY from "./libros-y.svg";
+import musicaY from "./musica-y.svg";
+import pinturaY from "./pintura-y.svg";
+import tejidoY from "./tejido-y.svg";
 
 export {
   portfolioLogo,
@@ -26,4 +31,9 @@ export {
   pintura,
   teatro,
   tejidos,
+  libroY,
+  librosY,
+  musicaY,
+  pinturaY,
+  tejidoY,
 };
