@@ -11,11 +11,13 @@ import { governor } from "./data/governor.json";
 
 import "./index.css";
 import { Text } from "./components/Text";
+import { Preload } from "./components/Preload";
 
 function App() {
   const SurveyStatus = import.meta.env.VITE_SURVEY_ON;
   return (
     <>
+      <Preload open />
       <HomeLayout>
         <div className="information-section">
           <Portfolio />
