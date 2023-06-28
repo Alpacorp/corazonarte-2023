@@ -4,7 +4,7 @@ export const Survey = () => {
   return (
     <iframe
       className="survey-monkey-form"
-      src="https://es.surveymonkey.com/r/corazonarte2023"
+      src="https://es.surveymonkey.com/r/bibliotecascora"
       title="Convocatoria"
     ></iframe>
   );
