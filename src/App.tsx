@@ -27,7 +27,7 @@ function App() {
         <div className="survey-section">
           {SurveyStatus === "true" ? (
             <>
-              <MainText extended={false} mainText="INSCRIBETE AQUI:" />
+              <MainText extended={false} mainText="INSCRÍBETE AQUÍ:" />
               <Survey />
             </>
           ) : (
