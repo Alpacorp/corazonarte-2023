@@ -1,6 +1,7 @@
 .main-text {
   font-size: 1.6rem;
   font-weight: 400;
+  font-family: var(--primary-font);
   margin: 0;
   padding: 0;
   text-align: center;
