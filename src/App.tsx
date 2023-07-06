@@ -5,13 +5,13 @@ import { MainText } from "./components/MainText";
 import { Portfolio } from "./components/Portfolio";
 import { FooterLayout } from "./components/layouts/FooterLayout";
 import { Survey } from "./components/Survey";
+import { Text } from "./components/Text";
+import { Preload } from "./components/Preload";
 
 import { categories } from "./data/categories.json";
 import { governor } from "./data/governor.json";
 
 import "./index.css";
-import { Text } from "./components/Text";
-import { Preload } from "./components/Preload";
 
 function App() {
   const SurveyStatus = import.meta.env.VITE_SURVEY_ON;
