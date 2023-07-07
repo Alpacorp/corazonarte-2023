@@ -36,7 +36,7 @@
   background-color: var(--blue-dark-color);
   border-radius: 50%;
   color: var(--white-color);
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: var(--tertiary-font);
   padding-block-end: 10px;
   padding-inline: 20px;
 }
