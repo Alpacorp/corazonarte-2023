@@ -14,7 +14,8 @@ import { governor } from "./data/governor.json";
 import "./index.css";
 
 function App() {
-  const SurveyStatus = import.meta.env.VITE_SURVEY_ON;
+  // const SurveyStatus = import.meta.env.VITE_SURVEY_ON;
+  const SurveyStatus = false;
   return (
     <>
       <Preload open />
@@ -25,7 +26,7 @@ function App() {
           <ImagesBar images={categories} size="small" />
         </div>
         <div className="survey-section">
-          {SurveyStatus === "true" ? (
+          {SurveyStatus ? (
             <>
               <MainText extended={false} mainText="INSCRÍBETE AQUÍ:" />
               <Survey />
